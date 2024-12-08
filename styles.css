@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
@@ -70,7 +70,10 @@ header {
     border-radius: 5px;
 }
 
-#about, #skills, #projects, #contact {
+#about,
+#skills,
+#projects,
+#contact {
     padding: 60px 20px;
     text-align: center;
 }
@@ -80,21 +83,24 @@ header {
     margin: 0 auto;
 }
 
-.skills-grid, .projects-grid {
+.skills-grid,
+.projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
     align-self: center;
 }
 
-.skill, .project {
+.skill,
+.project {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.skill h3, .project h3 {
+.skill h3,
+.project h3 {
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -106,9 +112,11 @@ header {
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
+    margin-top: 5px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -132,7 +140,20 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .skills-grid, .projects-grid {
+    .skills-grid,
+    .projects-grid {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+.myname {
+    color: blue;
+    font-weight: bolder;
+    text-shadow: #ff8c00;
+}
+
+.myname:hover {
+    border: 1px solid blue;
+    color: black;
+    margin-bottom: 5px;
 }
