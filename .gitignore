@@ -1,3 +1,9 @@
+new-features
+*.txt
+*.pdf
+node_modules/
+*.env
+
 *.txt
 *.pdf
 # Node modules directory
@@ -29,6 +35,4 @@ coverage/
 
 # IDE specific files
 .vscode/
-.idea/
-
 
